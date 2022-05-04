@@ -989,3 +989,299 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.04-18.30.48:482][314]LogDirectoryWatcher: Display: A directory notification failed for 'F:/UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Collections/' because it could not be accessed. Aborting watch request...
 [2022.05.04-18.30.48:482][314]LogDirectoryWatcher: Display: A directory notification failed for 'F:/UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Developers/Administrator/Collections/' because it could not be accessed. Aborting watch request...
 [2022.05.04-18.30.48:482][314]LogDirectoryWatcher: Display: A directory notification failed for 'F:/UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.05.04-18.49.01:681][573]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.04-18.49.01:684][573]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.04-18.49.01:684][573]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.04-18.49.01:684][573]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.04-18.49.01:684][573]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.04-18.49.01:685][573]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.04-18.49.01:685][573]LogWorldPartition: Display: GetPartitionedActors took 40 us
+[2022.05.04-18.49.01:685][573]LogWorldPartition: Display: GenerateStreaming took 188 us
+[2022.05.04-18.49.01:685][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.04-18.49.01:685][573]PIE: New page: PIE session: TopDownMap (2022年5月5日 上午10:49:01)
+[2022.05.04-18.49.01:689][573]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.05.04-18.49.01:689][573]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.05.04-18.49.01:689][573]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.04-18.49.01:692][573]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.04-18.49.01:692][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003248s)
+[2022.05.04-18.49.01:692][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.003286s)
+[2022.05.04-18.49.01:692][573]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.04-18.49.01:692][573]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.04-18.49.01:693][573]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.04-18.49.01:693][573]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.04-18.49.01:693][573]LogWorldPartition: Display: WorldPartition initialize took 618 us
+[2022.05.04-18.49.01:693][573]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2022.05.04-18.49.01:699][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.05.04-18.49.01:699][573]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.05.04-18.49.01:699][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.04-18.49.01:699][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.04-18.49.01:699][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.04-18.49.01:699][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.04-18.49.01:699][573]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.04-18.49.01:699][573]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.04-18.49.01:699][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.04-18.49.01:699][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.04-18.49.01:699][573]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.04-18.49.01:699][573]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.04-18.49.01:700][573]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.04-18.49.01:701][573]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.04-18.49.01:754][573]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (3- Razer Nommo Chroma)
+[2022.05.04-18.49.01:754][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.04-18.49.01:754][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.04-18.49.01:754][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.04-18.49.01:755][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.05.04-18.49.01:755][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.05.04-18.49.01:756][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.05.04-18.49.01:756][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.05.04-18.49.01:756][573]LogInit: FAudioDevice initialized.
+[2022.05.04-18.49.01:756][573]LogAudio: Display: Audio Device (ID: 2) registered with world 'TopDownMap'.
+[2022.05.04-18.49.01:765][573]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2022.05.04-18.49.01:766][573]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-02.49.01
+[2022.05.04-18.49.01:766][573]LogWorld: Bringing up level for play took: 0.000954
+[2022.05.04-18.49.01:768][573]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2022.05.04-18.49.01:785][573]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=1000.000 Y=1810.000 Z=98.338
+[2022.05.04-18.49.01:785][573]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.04-18.49.01:786][573]PIE: Server logged in
+[2022.05.04-18.49.01:786][573]PIE: Play in editor total start time 0.103 seconds.
+[2022.05.04-18.49.07:922][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.04-18.49.07:922][282]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.04-18.49.07:923][282]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.04-18.49.07:923][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.04-18.49.07:935][282]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.04-18.49.07:937][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.04-18.49.07:942][282]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.04-18.49.07:943][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.05.04-18.49.07:944][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.05.04-18.49.07:947][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.04-18.49.07:949][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.05.04-18.49.07:998][286]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.05.04-18.49.19:815][679]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.04-18.49.19:821][679]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.04-18.49.19:827][680]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.04-18.49.22:234][963]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprint
+[2022.05.04-18.49.22:234][963]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.04-18.49.24:729][243]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.04-18.49.24:736][243]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.04-18.49.24:751][245]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.04-18.49.25:997][395]LogContentBrowser: Attempting asset rename: NewFolder -> UI
+[2022.05.04-18.49.25:997][395]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.04-18.49.36:498][646]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.05.04-18.49.37:692][646]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2022.05.04-18.49.37:699][646]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.05.04-18.49.37:702][646]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.05.04-18.49.37:718][648]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2022.05.04-18.49.39:898][910]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> BaseHUD
+[2022.05.04-18.49.39:902][910]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.05.04-18.49.43:351][324]LogContentBrowser: Attempting asset rename: BaseHUD -> BP_UI_BaseHUD
+[2022.05.04-18.49.43:363][324]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_BaseHUD.SKEL_BP_UI_BaseHUD_C' ref from Metadata '/Game/Blueprint/UI/BaseHUD.PackageMetaData'
+[2022.05.04-18.49.43:363][324]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_BaseHUD.BP_UI_BaseHUD_C' ref from Metadata '/Game/Blueprint/UI/BaseHUD.PackageMetaData'
+[2022.05.04-18.49.43:363][324]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_BaseHUD.BP_UI_BaseHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprint/UI/BaseHUD.PackageMetaData'
+[2022.05.04-18.49.43:363][324]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_BaseHUD.BP_UI_BaseHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint/UI/BaseHUD.PackageMetaData'
+[2022.05.04-18.49.43:363][324]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_BaseHUD.BP_UI_BaseHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprint/UI/BaseHUD.PackageMetaData'
+[2022.05.04-18.49.43:389][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/UI/BP_UI_BaseHUD" FILE="../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/UI/BP_UI_BaseHUD.uasset" SILENT=true
+[2022.05.04-18.49.43:391][324]LogSavePackage: Moving output files for package: /Game/Blueprint/UI/BP_UI_BaseHUD
+[2022.05.04-18.49.43:391][324]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/BP_UI_BaseHUD0C0F41C44BFA45E73A10E28A3E1A4925.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/UI/BP_UI_BaseHUD.uasset'
+[2022.05.04-18.49.43:405][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.05.04-18.49.43:409][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.05.04-18.49.43:413][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.15ms
+[2022.05.04-18.49.43:415][324]AssetCheck: New page: Asset Save: BP_UI_BaseHUD
+[2022.05.04-18.49.43:415][324]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprint/UI/BP_UI_BaseHUD.BP_UI_BaseHUD
+[2022.05.04-18.49.46:727][542]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.05.04-18.49.51:509][751]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2022.05.04-18.49.51:514][751]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.05.04-18.49.51:517][751]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.05.04-18.49.51:523][752]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2022.05.04-18.49.52:349][842]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> NewWidgetBlueprint
+[2022.05.04-18.49.52:352][842]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.05.04-18.49.58:829][619]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> BP_UI_Joystick
+[2022.05.04-18.49.58:840][619]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_Joystick.SKEL_BP_UI_Joystick_C' ref from Metadata '/Game/Blueprint/UI/NewWidgetBlueprint.PackageMetaData'
+[2022.05.04-18.49.58:840][619]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_Joystick.BP_UI_Joystick_C' ref from Metadata '/Game/Blueprint/UI/NewWidgetBlueprint.PackageMetaData'
+[2022.05.04-18.49.58:840][619]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_Joystick.BP_UI_Joystick:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprint/UI/NewWidgetBlueprint.PackageMetaData'
+[2022.05.04-18.49.58:840][619]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_Joystick.BP_UI_Joystick:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint/UI/NewWidgetBlueprint.PackageMetaData'
+[2022.05.04-18.49.58:840][619]LogMetaData: Removing '/Game/Blueprint/UI/BP_UI_Joystick.BP_UI_Joystick:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprint/UI/NewWidgetBlueprint.PackageMetaData'
+[2022.05.04-18.49.58:867][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/UI/BP_UI_Joystick" FILE="../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/UI/BP_UI_Joystick.uasset" SILENT=true
+[2022.05.04-18.49.58:869][619]LogSavePackage: Moving output files for package: /Game/Blueprint/UI/BP_UI_Joystick
+[2022.05.04-18.49.58:869][619]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/BP_UI_Joystick275B01E74FF6B681D62835A5AC5ACE43.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/UI/BP_UI_Joystick.uasset'
+[2022.05.04-18.49.58:883][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.05.04-18.49.58:887][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.05.04-18.49.58:891][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.13ms
+[2022.05.04-18.49.58:893][619]AssetCheck: New page: Asset Save: BP_UI_Joystick
+[2022.05.04-18.49.58:893][619]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprint/UI/BP_UI_Joystick.BP_UI_Joystick
+[2022.05.04-18.50.44:852][ 73]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprint/UI/BP_UI_Joystick.BP_UI_Joystick
+[2022.05.04-18.50.44:853][ 73]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.04-18.50.44:857][ 73]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.04-18.50.44:863][ 73]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2022.05.04-18.50.45:429][ 73]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.04-18.50.45:429][ 73]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.04-18.50.45:690][ 73]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.05.04-18.50.45:697][ 73]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2022.05.04-18.50.50:825][673]BlueprintLog: New page: Compile BP_UI_Joystick
+[2022.05.04-18.50.50:868][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.05.04-18.50.52:267][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/UI/BP_UI_Joystick" FILE="../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/UI/BP_UI_Joystick.uasset" SILENT=true
+[2022.05.04-18.50.52:269][827]LogSavePackage: Moving output files for package: /Game/Blueprint/UI/BP_UI_Joystick
+[2022.05.04-18.50.52:270][827]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/BP_UI_Joystick74ED3908475CBFC4DAC126876BAC75BE.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/UI/BP_UI_Joystick.uasset'
+[2022.05.04-18.50.52:279][827]AssetCheck: New page: Asset Save: BP_UI_Joystick
+[2022.05.04-18.50.52:279][827]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprint/UI/BP_UI_Joystick.BP_UI_Joystick
+[2022.05.04-18.50.57:435][417]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.04-18.50.57:455][417]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.04-18.50.57:461][418]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.04-18.50.59:849][705]LogContentBrowser: Attempting asset rename: NewFolder -> GamePlay
+[2022.05.04-18.50.59:849][705]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.04-18.51.04:329][ 65]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.05.04-18.51.04:335][ 65]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.05.04-18.51.04:338][ 65]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.05.04-18.51.04:355][ 67]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.05.04-18.51.12:467][ 41]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_HiSchoolDiaryGameMode
+[2022.05.04-18.51.12:470][ 41]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.05.04-18.51.13:206][126]LogSavePackage: Moving output files for package: /Game/Blueprint/GamePlay/BP_HiSchoolDiaryGameMode
+[2022.05.04-18.51.13:206][126]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/BP_HiSchoolDiaryGameModeBFD8A87148CBBBC071D85B826C8AE72A.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/GamePlay/BP_HiSchoolDiaryGameMode.uasset'
+[2022.05.04-18.51.13:214][126]AssetCheck: New page: Asset Save: BP_HiSchoolDiaryGameMode
+[2022.05.04-18.51.13:214][126]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/GamePlay/BP_HiSchoolDiaryGameMode.BP_HiSchoolDiaryGameMode
+[2022.05.04-18.51.14:006][220]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/GamePlay/BP_HiSchoolDiaryGameMode.BP_HiSchoolDiaryGameMode
+[2022.05.04-18.51.14:006][220]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.04-18.51.20:913][986]LogSavePackage: Moving output files for package: /Game/Blueprint/GamePlay/BP_HiSchoolDiaryGameMode
+[2022.05.04-18.51.20:913][986]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/BP_HiSchoolDiaryGameMode523295164CD3A2A05B063C882726CD9C.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/GamePlay/BP_HiSchoolDiaryGameMode.uasset'
+[2022.05.04-18.51.20:922][986]AssetCheck: New page: Asset Save: BP_HiSchoolDiaryGameMode
+[2022.05.04-18.51.20:923][986]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/GamePlay/BP_HiSchoolDiaryGameMode.BP_HiSchoolDiaryGameMode
+[2022.05.04-18.51.36:310][288]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.05.04-18.51.36:316][288]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.05.04-18.51.36:320][288]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.05.04-18.51.36:327][289]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.05.04-18.51.42:837][ 70]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_BasePlayerController
+[2022.05.04-18.51.42:840][ 70]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.05.04-18.51.43:530][150]LogSavePackage: Moving output files for package: /Game/Blueprint/GamePlay/BP_BasePlayerController
+[2022.05.04-18.51.43:530][150]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/BP_BasePlayerControllerB711A32E4BF9350F275B90BADDDAA4B5.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/GamePlay/BP_BasePlayerController.uasset'
+[2022.05.04-18.51.43:546][150]AssetCheck: New page: Asset Save: BP_BasePlayerController
+[2022.05.04-18.51.43:546][150]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/GamePlay/BP_BasePlayerController.BP_BasePlayerController
+[2022.05.04-18.51.48:798][780]LogContentBrowser: Attempting asset rename: BP_BasePlayerController -> BP_PlayerController
+[2022.05.04-18.51.48:808][780]LogMetaData: Removing '/Game/Blueprint/GamePlay/BP_PlayerController.BP_PlayerController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprint/GamePlay/BP_BasePlayerController.PackageMetaData'
+[2022.05.04-18.51.48:809][780]LogMetaData: Removing '/Game/Blueprint/GamePlay/BP_PlayerController.SKEL_BP_PlayerController_C:UserConstructionScript' ref from Metadata '/Game/Blueprint/GamePlay/BP_BasePlayerController.PackageMetaData'
+[2022.05.04-18.51.48:809][780]LogMetaData: Removing '/Game/Blueprint/GamePlay/BP_PlayerController.SKEL_BP_PlayerController_C' ref from Metadata '/Game/Blueprint/GamePlay/BP_BasePlayerController.PackageMetaData'
+[2022.05.04-18.51.48:809][780]LogMetaData: Removing '/Game/Blueprint/GamePlay/BP_PlayerController.BP_PlayerController_C' ref from Metadata '/Game/Blueprint/GamePlay/BP_BasePlayerController.PackageMetaData'
+[2022.05.04-18.51.48:809][780]LogMetaData: Removing '/Game/Blueprint/GamePlay/BP_PlayerController.BP_PlayerController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprint/GamePlay/BP_BasePlayerController.PackageMetaData'
+[2022.05.04-18.51.48:809][780]LogMetaData: Removing '/Game/Blueprint/GamePlay/BP_PlayerController.BP_PlayerController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint/GamePlay/BP_BasePlayerController.PackageMetaData'
+[2022.05.04-18.51.48:835][780]LogSavePackage: Moving output files for package: /Game/Blueprint/GamePlay/BP_PlayerController
+[2022.05.04-18.51.48:835][780]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/BP_PlayerController75C197CA45C1FB603CBA45BB236775E5.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Blueprint/GamePlay/BP_PlayerController.uasset'
+[2022.05.04-18.51.48:876][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.05.04-18.51.48:898][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.05.04-18.51.48:920][780]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.05.04-18.51.48:923][780]AssetCheck: New page: Asset Save: BP_PlayerController
+[2022.05.04-18.51.48:923][780]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/GamePlay/BP_PlayerController.BP_PlayerController
+[2022.05.04-18.52.05:398][677]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.04-18.52.05:403][677]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.04-18.52.05:410][678]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.04-18.52.07:415][918]LogContentBrowser: Attempting asset rename: NewFolder -> Resource
+[2022.05.04-18.52.07:415][918]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.04-18.52.13:916][652]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.04-18.52.13:925][652]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.04-18.52.13:939][654]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.04-18.52.16:011][903]LogContentBrowser: Attempting asset rename: NewFolder -> Texture
+[2022.05.04-18.52.16:011][903]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.04-18.52.18:391][188]LogContentBrowser: Attempting asset rename: Texture -> UI
+[2022.05.04-18.52.20:737][454]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.04-18.52.20:744][454]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.04-18.52.20:759][456]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.04-18.52.22:372][650]LogContentBrowser: Attempting asset rename: NewFolder -> Texture
+[2022.05.04-18.52.22:374][650]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.04-18.52.30:115][578]LogContentBrowser: Attempting asset rename: Texture -> Texture
+[2022.05.04-18.52.41:011][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Administrator\Desktop\Res\Common_button_fight_charge4.TGA)
+[2022.05.04-18.52.41:017][155]LogTexture: Display: Building textures: /Game/Resource/UI/Texture/Common_button_fight_charge4.Common_button_fight_charge4 (BGRA8, 130X131 X1X1) (Required Memory Estimate: 0.324821 MB), EncodeSpeed: Fast
+[2022.05.04-18.52.41:017][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Administrator\Desktop\Res\Common_button_fight_di1.TGA)
+[2022.05.04-18.52.41:022][155]LogTexture: Display: Building textures: /Game/Resource/UI/Texture/Common_button_fight_di1.Common_button_fight_di1 (TFO_AutoDXT, 188X188 X1X1) (Required Memory Estimate: 0.674133 MB), EncodeSpeed: Fast
+[2022.05.04-18.52.41:022][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Administrator\Desktop\Res\Common_rocker_bg.TGA)
+[2022.05.04-18.52.41:027][155]LogTexture: Display: Building textures: /Game/Resource/UI/Texture/Common_rocker_bg.Common_rocker_bg (BGRA8, 290X290 X1X1) (Required Memory Estimate: 1.60408 MB), EncodeSpeed: Fast
+[2022.05.04-18.52.41:027][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Administrator\Desktop\Res\Common_rocker_bg2.TGA)
+[2022.05.04-18.52.41:032][155]LogTexture: Display: Building textures: /Game/Resource/UI/Texture/Common_rocker_bg2.Common_rocker_bg2 (TFO_AutoDXT, 80X80 X1X1) (Required Memory Estimate: 0.12207 MB), EncodeSpeed: Fast
+[2022.05.04-18.52.41:032][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Administrator\Desktop\Res\Icon_skill_knuckles.TGA)
+[2022.05.04-18.52.41:051][155]LogTexture: Display: Building textures: /Game/Resource/UI/Texture/Icon_skill_knuckles.Icon_skill_knuckles (TFO_AutoDXT, 128X128 X1X1) (Required Memory Estimate: 0.3125 MB), EncodeSpeed: Fast
+[2022.05.04-18.52.43:321][229]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_button_fight_charge4
+[2022.05.04-18.52.43:321][229]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_button_fight_charge4C53ACDF14C1DD3A03478FB86424176FE.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_button_fight_charge4.uasset'
+[2022.05.04-18.52.43:324][229]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_button_fight_di1
+[2022.05.04-18.52.43:324][229]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_button_fight_di125FC3D1B4656F422DFB1C88121A15080.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_button_fight_di1.uasset'
+[2022.05.04-18.52.43:328][229]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_rocker_bg
+[2022.05.04-18.52.43:328][229]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_rocker_bg094D4B7D4FE0AD28F376F48B07F0751A.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_rocker_bg.uasset'
+[2022.05.04-18.52.43:330][229]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_rocker_bg2
+[2022.05.04-18.52.43:331][229]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_rocker_bg2DF041854497843B1F769DA9F4801FE5D.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_rocker_bg2.uasset'
+[2022.05.04-18.52.43:334][229]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Icon_skill_knuckles
+[2022.05.04-18.52.43:334][229]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Icon_skill_knucklesFB4FB5EA4AD7542EA99069B4B0A62424.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Icon_skill_knuckles.uasset'
+[2022.05.04-18.52.43:343][229]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.04-18.52.43:343][229]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Icon_skill_knuckles.Icon_skill_knuckles
+[2022.05.04-18.52.43:343][229]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg2.Common_rocker_bg2
+[2022.05.04-18.52.43:343][229]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg.Common_rocker_bg
+[2022.05.04-18.52.43:343][229]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_button_fight_di1.Common_button_fight_di1
+[2022.05.04-18.52.43:343][229]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_button_fight_charge4.Common_button_fight_charge4
+[2022.05.04-18.52.44:795][389]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.04-18.52.44:795][389]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.04-18.52.49:953][997]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_button_fight_charge4.Common_button_fight_charge4
+[2022.05.04-18.52.49:953][997]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_button_fight_di1.Common_button_fight_di1
+[2022.05.04-18.52.49:953][997]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg.Common_rocker_bg
+[2022.05.04-18.52.49:953][997]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg2.Common_rocker_bg2
+[2022.05.04-18.52.49:953][997]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Icon_skill_knuckles.Icon_skill_knuckles
+[2022.05.04-18.52.49:953][997]AssetCheck: Data validation SUCCEEDED.
+[2022.05.04-18.52.49:953][997]AssetCheck: Files Checked: 5, Passed: 5, Failed: 0, Skipped: 0, Unable to validate: 0
+[2022.05.04-18.52.51:824][218]LogSlate: Window 'Message Log' being destroyed
+[2022.05.04-18.52.51:828][218]LogSlate: Window 'Message Log' being destroyed
+[2022.05.04-18.52.52:760][318]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.04-18.52.52:760][318]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.04-18.52.57:836][909]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.04-18.52.57:836][909]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.04-18.53.07:427][ 25]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.04-18.53.07:427][ 25]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.05.04-18.53.13:523][739]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Resource/UI/Texture/Icon_skill_knuckles.Icon_skill_knuckles
+[2022.05.04-18.53.13:541][739]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.05.04-18.53.30:069][632]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2022.05.04-18.53.30:069][632]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2022.05.04-18.53.30:070][632]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2022.05.04-18.53.30:070][632]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2022.05.04-18.53.30:070][632]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2022.05.04-18.53.30:070][632]LogWindows: Warning: URL: C:\Users\Administrator\AppData\Local/Programs/Git/cmd/git.exe version
+[2022.05.04-18.53.30:070][632]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2022.05.04-18.53.30:070][632]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2022.05.04-18.53.30:070][632]LogWindows: Warning: CreateProc failed: 系统找不到指定的文件。 (0x00000002)
+[2022.05.04-18.53.30:070][632]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2022.05.04-18.53.50:108][505]SourceControl: Source control is disabled
+[2022.05.04-18.53.50:108][505]LogSlate: Window 'Source Control Login' being destroyed
+[2022.05.04-18.54.09:010][849]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Icon_skill_knuckles
+[2022.05.04-18.54.09:010][849]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Icon_skill_knuckles9DB4F0484745FE3B2DAB0EBB53FAE07A.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Icon_skill_knuckles.uasset'
+[2022.05.04-18.54.09:012][849]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_button_fight_charge4
+[2022.05.04-18.54.09:012][849]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_button_fight_charge4BF734BF544EA34B1B93BE9B49260C52A.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_button_fight_charge4.uasset'
+[2022.05.04-18.54.09:014][849]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_button_fight_di1
+[2022.05.04-18.54.09:014][849]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_button_fight_di17BE9E75C41B09C30D3058BBC4BE9C4F1.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_button_fight_di1.uasset'
+[2022.05.04-18.54.09:016][849]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_rocker_bg
+[2022.05.04-18.54.09:017][849]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_rocker_bgBE187FF24F6D1DFE69466D88D36BEF79.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_rocker_bg.uasset'
+[2022.05.04-18.54.09:018][849]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_rocker_bg2
+[2022.05.04-18.54.09:018][849]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_rocker_bg232BCEA6740B1A9CF6CB11EB0946F7E31.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_rocker_bg2.uasset'
+[2022.05.04-18.54.09:031][849]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.04-18.54.09:031][849]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Icon_skill_knuckles.Icon_skill_knuckles
+[2022.05.04-18.54.09:031][849]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg2.Common_rocker_bg2
+[2022.05.04-18.54.09:031][849]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg.Common_rocker_bg
+[2022.05.04-18.54.09:031][849]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_button_fight_di1.Common_button_fight_di1
+[2022.05.04-18.54.09:031][849]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_button_fight_charge4.Common_button_fight_charge4
+[2022.05.04-18.54.26:503][953]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Resource/UI/Texture/Common_rocker_bg2.Common_rocker_bg2
+[2022.05.04-18.54.26:503][953]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.05.04-18.54.28:434][169]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Resource/UI/Texture/Common_button_fight_di1.Common_button_fight_di1
+[2022.05.04-18.54.28:434][169]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.05.04-18.54.32:859][675]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Resource/UI/Texture/Common_button_fight_charge4.Common_button_fight_charge4
+[2022.05.04-18.54.32:859][675]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.05.04-18.54.36:278][ 62]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Resource/UI/Texture/Common_rocker_bg.Common_rocker_bg
+[2022.05.04-18.54.36:278][ 62]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.05.04-18.54.55:280][281]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_rocker_bg2
+[2022.05.04-18.54.55:281][281]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_rocker_bg2F8E804814244F210B3AB57A3EC40E70B.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_rocker_bg2.uasset'
+[2022.05.04-18.54.55:292][281]AssetCheck: New page: Asset Save: Common_rocker_bg2
+[2022.05.04-18.54.55:292][281]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg2.Common_rocker_bg2
+[2022.05.04-18.54.57:141][490]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_button_fight_charge4
+[2022.05.04-18.54.57:141][490]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_button_fight_charge4A2CA209D4688DE565BBD9AA85C5C4AB4.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_button_fight_charge4.uasset'
+[2022.05.04-18.54.57:144][490]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_button_fight_di1
+[2022.05.04-18.54.57:144][490]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_button_fight_di15CD669894863B84B05715CBC3EECB572.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_button_fight_di1.uasset'
+[2022.05.04-18.54.57:147][490]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_rocker_bg
+[2022.05.04-18.54.57:148][490]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_rocker_bg7619AF114C7096B00043F6A1A3CB44E0.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_rocker_bg.uasset'
+[2022.05.04-18.54.57:149][490]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Common_rocker_bg2
+[2022.05.04-18.54.57:149][490]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Common_rocker_bg27240F7EC4406F0F5871DBBA7AAE3F9D0.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Common_rocker_bg2.uasset'
+[2022.05.04-18.54.57:152][490]LogSavePackage: Moving output files for package: /Game/Resource/UI/Texture/Icon_skill_knuckles
+[2022.05.04-18.54.57:152][490]LogSavePackage: Moving '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Saved/Icon_skill_knuckles0B4890AB48DB13223072ACBE18779E60.tmp' to '../../../../../../UEProjects/HiSchoolDiaryDemo/HiSchoolDiary/Content/Resource/UI/Texture/Icon_skill_knuckles.uasset'
+[2022.05.04-18.54.57:163][490]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.04-18.54.57:163][490]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Icon_skill_knuckles.Icon_skill_knuckles
+[2022.05.04-18.54.57:163][490]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg2.Common_rocker_bg2
+[2022.05.04-18.54.57:163][490]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_rocker_bg.Common_rocker_bg
+[2022.05.04-18.54.57:163][490]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_button_fight_di1.Common_button_fight_di1
+[2022.05.04-18.54.57:163][490]LogContentValidation: Display: Validating Texture2D /Game/Resource/UI/Texture/Common_button_fight_charge4.Common_button_fight_charge4
