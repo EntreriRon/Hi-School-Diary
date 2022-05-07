@@ -10,6 +10,6 @@ public class HiSchoolDiaryTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "HiSchoolDiary" } );
+		ExtraModuleNames.AddRange( new string[] { "HiSchoolDiary", "ComboGraph", "ComboGraphEditor" } );
 	}
 }

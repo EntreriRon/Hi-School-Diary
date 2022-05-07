@@ -8,7 +8,7 @@ public class HiSchoolDiary : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" , "ComboGraph", "ComboGraphEditor" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
