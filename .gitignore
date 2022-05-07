@@ -39,6 +39,7 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+*.sln
  
 # Precompiled Assets
 HiSchoolDiary/SourceArt/**/*.png
