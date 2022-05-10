@@ -19,5 +19,5 @@ public:
 	UHSD_GameInstance();
 	UHSD_GameInstance(const FObjectInitializer& ObjectInitializer);
 
-	bool isOnline();
+	//bool isOnline();
 };
