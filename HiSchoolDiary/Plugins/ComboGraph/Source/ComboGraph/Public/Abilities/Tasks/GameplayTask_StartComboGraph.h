@@ -58,6 +58,9 @@ public:
 		bool bBroadcastInternalEvents = false
 	);
 
+	UPROPERTY(Transient, BlueprintReadWrite)
+	UComboGraphNativeAbility* CachedAbility;
+
 protected:
 	virtual void Activate() override;
 	virtual void OnDestroy(bool bInOwnerFinished) override;
@@ -77,8 +80,6 @@ private:
 	UPROPERTY(Transient)
 	UInputAction* InitialInput;
 
-	UPROPERTY(Transient)
-	UComboGraphNativeAbility* CachedAbility;
 
 	/** Whether HandleEventReceived should broadcast internal events (task param) */
 	bool bBroadcastInternalEvents = false;
