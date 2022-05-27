@@ -40,6 +40,7 @@
 *.VC.db
 *.VC.opendb
 *.sln
+*.uproject
  
 # Precompiled Assets
 HiSchoolDiary/SourceArt/**/*.png
