@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.0",
+	"EngineAssociation": "{9EFC764A-4568-9FCC-19A6-CE8862023F2E}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -12,11 +12,11 @@
 				"Engine"
 			]
 		},
-        {
-            "Name": "HiSchoolDiaryEditor",
-            "Type": "Editor",
-            "LoadingPhase":  "PostEngineInit"
-        }
+		{
+			"Name": "HiSchoolDiaryEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
 	],
 	"Plugins": [
 		{
@@ -42,6 +42,10 @@
 		},
 		{
 			"Name": "EOSShared",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
 			"Enabled": true
 		}
 	]
